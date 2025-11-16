@@ -1,0 +1,242 @@
+📦 STRATEGI BATCH SAYA:
+✅ Yang Saya Akan Berikan Setiap Batch:
+
+📁 ZIP File Siap Upload ke cPanel
+
+Struktur folder sudah rapih
+File sudah organized by feature
+Siap extract langsung di public_html
+
+
+📋 File INSTALL.md
+
+Step-by-step cara install batch tersebut
+SQL queries untuk database (jika ada)
+Konfigurasi yang perlu diubah
+Cara test fitur batch tersebut
+
+
+✅ Checklist Testing
+
+Apa saja yang harus di-test
+Expected result
+Troubleshooting common issues
+
+
+🔄 File UPDATE.md (untuk batch lanjutan)
+
+Apa yang berubah dari batch sebelumnya
+File baru yang ditambah
+File yang di-update
+
+
+
+
+🎯 PEMBAGIAN BATCH YANG SAYA USULKAN:
+Saya bagi jadi 10 BATCH (lebih sedikit tapi lebih fokus):
+┌─────────────────────────────────────────────────────────────┐
+│  BATCH 1: FOUNDATION (Database + Core + Config)            │
+│  📦 Output: ~50 files | ⏱️ Test: 2-3 jam                    │
+│  ✅ Database 85+ tables                                     │
+│  ✅ Core classes (Database, Router, Auth, etc)             │
+│  ✅ Config files (.env, database.php, constants.php)       │
+│  ✅ Helper functions                                        │
+│  ✅ Base layout (header, footer)                           │
+│  🧪 Test: Database connect, routing dasar                   │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 2: AUTH SYSTEM + PUBLIC HOMEPAGE                    │
+│  📦 Output: ~60 files | ⏱️ Test: 3-4 jam                    │
+│  ✅ Login, Register, Forgot Password                       │
+│  ✅ Email verification                                      │
+│  ✅ Homepage lengkap (hero, services, portfolio)           │
+│  ✅ About, Services, Contact pages                         │
+│  🧪 Test: Register, login, homepage tampil                  │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 3: CLIENT DASHBOARD                                 │
+│  📦 Output: ~70 files | ⏱️ Test: 4-5 jam                    │
+│  ✅ Client dashboard overview                              │
+│  ✅ Order system (create order, upload payment)            │
+│  ✅ Invoice system                                          │
+│  ✅ Support tickets                                         │
+│  ✅ Demo Request Form (26 fields!)                         │
+│  🧪 Test: Client bisa order, upload bukti bayar            │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 4: PARTNER DASHBOARD                                │
+│  📦 Output: ~65 files | ⏱️ Test: 4-5 jam                    │
+│  ✅ Partner dashboard overview                             │
+│  ✅ Referral link generator                                │
+│  ✅ Commission tracking                                     │
+│  ✅ Withdrawal request                                      │
+│  ✅ Tier progression system                                │
+│  🧪 Test: Partner daftar, dapat link, track komisi         │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 5: SPV & MANAGER DASHBOARD                          │
+│  📦 Output: ~60 files | ⏱️ Test: 3-4 jam                    │
+│  ✅ SPV dashboard (downline management)                    │
+│  ✅ Manager dashboard (area management)                    │
+│  ✅ ARPU tracking & bonus system                           │
+│  ✅ Downline performance reports                           │
+│  🧪 Test: SPV lihat downline, Manager lihat area           │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 6: ADMIN PART 1 (Users, Orders, Payments)          │
+│  📦 Output: ~80 files | ⏱️ Test: 5-6 jam                    │
+│  ✅ Admin dashboard overview                               │
+│  ✅ User management (CRUD)                                 │
+│  ✅ Order management                                        │
+│  ✅ Payment verification                                    │
+│  ✅ Invoice generation                                      │
+│  🧪 Test: Admin approve payment, update order status       │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 7: ADMIN PART 2 (Partners, Withdrawals, Services)  │
+│  📦 Output: ~75 files | ⏱️ Test: 4-5 jam                    │
+│  ✅ Partner/SPV/Manager management                         │
+│  ✅ Withdrawal approval system                             │
+│  ✅ Services & packages management                         │
+│  ✅ Demo Request management (with Copy for AI)            │
+│  🧪 Test: Admin approve withdrawal, manage services        │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 8: ADMIN PART 3 (Reports, Settings, Automation)    │
+│  📦 Output: ~70 files | ⏱️ Test: 4-5 jam                    │
+│  ✅ Reports & analytics (charts)                           │
+│  ✅ Settings (company, SMTP, SEO)                          │
+│  ✅ Commission auto-calculation                            │
+│  ✅ Email automation (14 templates)                        │
+│  ✅ Cron jobs (tier-update, ARPU, invoices)               │
+│  🧪 Test: Reports tampil, email terkirim, cron jalan       │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 9: ADVANCED FEATURES                                │
+│  📦 Output: ~60 files | ⏱️ Test: 3-4 jam                    │
+│  ✅ Task Board system                                      │
+│  ✅ Public Leaderboard                                     │
+│  ✅ Subscription auto-deduct                               │
+│  ✅ Multi-language system                                  │
+│  ✅ SEO optimization                                        │
+│  🧪 Test: Task board, leaderboard public                   │
+├─────────────────────────────────────────────────────────────┤
+│  BATCH 10: 50 DEMO WEBSITES + FINAL POLISH                │
+│  📦 Output: ~280 files | ⏱️ Test: 6-8 jam                   │
+│  ✅ 50 demo websites (10 categories)                       │
+│  ✅ Demo browser/showcase                                  │
+│  ✅ Final optimization (minify, compress)                  │
+│  ✅ Documentation lengkap                                   │
+│  ✅ Deployment checklist                                    │
+│  🧪 Test: All demos work, performance check                │
+└─────────────────────────────────────────────────────────────┘
+
+TOTAL: 10 Batches | ~730 files | 6-8 minggu
+
+🔥 KEUNGGULAN SISTEM INI:
+✅ 1. INCREMENTAL & AMAN
+
+Setiap batch berdiri sendiri
+Bisa test dulu sebelum lanjut
+Kalau ada bug, gampang rollback
+
+✅ 2. SIAP UPLOAD
+
+Setiap batch sudah ZIP, tinggal extract
+Struktur folder sudah rapih
+Config sudah template
+
+✅ 3. OTOMATIS
+
+Commission auto-calculate
+Email auto-send
+Invoice auto-generate
+Tier auto-update (via cron)
+ARPU bonus auto-credit
+
+✅ 4. DOKUMENTASI LENGKAP
+
+Install guide per batch
+Testing checklist
+Troubleshooting tips
+Video tutorial (optional)
+
+
+📋 FORMAT SETIAP BATCH:
+Setiap batch yang saya kirim akan berbentuk:
+batch-X-nama-batch.zip
+├── /files/                    # Semua file PHP, CSS, JS
+│   ├── /config/
+│   ├── /core/
+│   ├── /app/
+│   ├── /assets/
+│   └── ...
+│
+├── /database/                 # SQL files (jika ada)
+│   ├── schema.sql
+│   ├── seed-data.sql
+│   └── update.sql
+│
+├── INSTALL.md                 # Cara install batch ini
+├── TEST-CHECKLIST.md          # Apa yang harus di-test
+├── UPDATE-LOG.md              # Apa yang berubah/baru
+└── TROUBLESHOOTING.md         # Common issues & solutions
+
+🚀 WORKFLOW KITA:
+1. Saya kirim BATCH 1 (ZIP + docs)
+   ↓
+2. Anda extract & upload ke cPanel
+   ↓
+3. Anda ikuti INSTALL.md
+   ↓
+4. Anda test pakai TEST-CHECKLIST.md
+   ↓
+5. Anda konfirmasi: "BATCH 1 OK" atau "Ada bug X"
+   ↓
+6. Saya fix bug (jika ada) atau lanjut BATCH 2
+   ↓
+7. Repeat untuk BATCH 2-10
+
+⚙️ SEMUA OTOMATIS:
+✅ Commission System:
+php// Otomatis calculate saat admin approve payment
+function calculateCommission($order_id) {
+    // Hitung Partner (30-55% based on tier)
+    // Hitung SPV (10%)
+    // Hitung Manager (5%)
+    // Auto credit ke balance
+    // Auto send email notification
+}
+✅ Tier System:
+php// Cron job jalan setiap bulan (auto)
+function updateTiers() {
+    // Check semua partner
+    // Count orders bulan ini
+    // Upgrade/downgrade tier
+    // Send notification
+}
+✅ ARPU Bonus:
+php// Cron job jalan akhir bulan (auto)
+function distributeARPUBonus() {
+    // Calculate total revenue per SPV/Manager
+    // Cek tier bonus (Rp 500K - Rp 15jt)
+    // Credit bonus to balance
+    // Send notification
+}
+✅ Invoice Generation:
+php// Otomatis saat order created
+function generateInvoice($order_id) {
+    // Format: INV-SITUNEO-DD-MMM-YYYY
+    // Auto save to database
+    // Auto send email
+    // PDF ready for download
+}
+✅ Email Automation:
+php// 14 jenis email auto-send
+- Welcome email
+- Email verification
+- Order confirmation
+- Payment verified
+- Commission earned
+- Withdrawal processed
+- etc...
+✅ Subscription Auto-Deduct:
+php// Cron job daily check (auto)
+function checkSubscriptions() {
+    // Cek client yang stop langganan
+    // If <3 bulan → deduct from partner
+    // Update balance
+    // Send notification
+}
